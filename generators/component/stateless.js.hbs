@@ -1,0 +1,19 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import styled from 'styled-components';
+
+const Container = styled.div`
+  display: block;
+`;
+
+const {{ properCase name }} = (props) => (
+  <Container>
+    {props.children}
+  </Container>
+);
+
+{{ properCase name }}.propTypes = {
+  children: PropTypes.node,
+};
+
+export default {{ properCase name }};

@@ -1,0 +1,9 @@
+import {{ properCase name }} from './{{ properCase name }}';
+
+{{# if modelBuilder }}
+export default {{ properCase name }};
+
+export {{ properCase name }}Model from './{{ properCase name }}Model';
+{{ else }}
+export default {{ properCase name }};
+{{/ if }}
